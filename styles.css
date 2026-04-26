@@ -60,12 +60,22 @@ img{
 }
 
 .card {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    overflow: hidden;
     display: flex;
-    gap: 16px;
-    align-items: flex-start;
+    flex-direction: column;
 }
 
+
 .card img {
-    width: 120px !important;
-    flex-shrink: 0;
+    width: 100% !important;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card p {
+    padding: 12px;
+    font-size: 14px;
+    line-height: 1.5;
 }
