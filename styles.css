@@ -80,3 +80,13 @@ img{
     font-size: 14px;
     line-height: 1.5;
 }
+
+.watch-btn {
+    width: 100%;
+    padding: 8px;
+    background: #b30000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+}
