@@ -70,8 +70,8 @@ img{
 
 .card img {
     width: 100% !important;
-    height: 300px;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
 }
 
 .card p {
